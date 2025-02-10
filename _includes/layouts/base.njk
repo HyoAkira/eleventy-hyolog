@@ -1,0 +1,24 @@
+---
+title: Hyolog
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    {{ content | safe }}
+
+    {% for news in news.articles %}
+    {{news.title}}
+    {% endfor %}
+
+
+    {% for flower in flowers %}
+    {{flower.common_name}}
+    {% endfor %}
+  </body>
+</html>
