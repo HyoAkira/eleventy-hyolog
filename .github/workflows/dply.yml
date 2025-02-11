@@ -6,6 +6,9 @@ on:
       - main # Change this to your default branch if it's not 'main'
 
 jobs:
+  permissions:
+    id-token: write
+    pages: write
   build-and-deploy:
     runs-on: ubuntu-latest
 
