@@ -1,1 +1,10 @@
 media: files
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: _posts
+    fields:
+      - {name: title, label: Title, type: string}
+      - {name: layout, type: string, hidden: true, default: "layouts/posts.njk"}
+      - {name: body, label: Body, type: rich-text}
