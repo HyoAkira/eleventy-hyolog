@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main # Change this to your default branch if it's not 'main'
+permissions:
+  id-token: write
+  pages: write
 
 jobs:
-  permissions:
-    id-token: write
-    pages: write
   build-and-deploy:
     runs-on: ubuntu-latest
 
