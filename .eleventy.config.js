@@ -1,10 +1,9 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-
-    return {
-        pathPrefix: "/eleventy-hyolog/",
-
-    };
 };
+
+export const config = {
+    pathPrefix: "/eleventy-base-blog/",
+}
