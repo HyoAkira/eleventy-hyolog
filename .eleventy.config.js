@@ -5,5 +5,5 @@ export default function (eleventyConfig) {
 };
 
 export const config = {
-    pathPrefix: "/eleventy-base-blog/",
+    pathPrefix: "/eleventy-hyolog/",
 }
