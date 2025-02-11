@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "pnpm dlx @11ty/eleventy --serve",
-    "build": "pnpm dlx @11ty/eleventy"
+    "build": "NODE_ENV=production pnpm dlx @11ty/eleventy --pathprefix='eleventy-hyolog'"
   },
   "keywords": [],
   "author": "",
