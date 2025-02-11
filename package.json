@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "pnpm dlx @11ty/eleventy --serve"
+    "serve": "pnpm dlx @11ty/eleventy --serve",
+    "build": "pnpm dlx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
