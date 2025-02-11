@@ -1,7 +1,5 @@
 ---
 title: First Post
-tags: post
-date: Last Modified
 layout: "layouts/posts.njk"
 ---
 
